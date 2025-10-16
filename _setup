@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+alias code="code-oss ."
