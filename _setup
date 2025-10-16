@@ -1,3 +1,5 @@
 #!/bin/zsh
 
-alias code="code-oss ."
+alias code="code-oss . && exit"
+
+cs() { cd "$@" && ls; }
