@@ -1,5 +1,6 @@
 #!/bin/zsh
 
 alias code="code-oss . && exit"
+alias restart-audio="systemctl --user restart pipewire.service pipewire-pulse.service"
 
 cs() { cd "$@" && ls; }
